@@ -7,8 +7,9 @@ Home | Newspaper
  <h1>Hi {{user.username}}!  you are {{user.age}} years old!</h1>
 <p><a href="{% url 'logout' %}">Logout</a></p>
 {% else %}
+<!--
 <p>You are not logged in</p>
 <a href="{% url 'login' %}">Login</a>
-<a href="{% url 'signup' %}">SignUp</a>
+<a href="{% url 'signup' %}">SignUp</a>-->
 {% endif %}
 {% endblock content %}
